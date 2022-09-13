@@ -1,0 +1,26 @@
+{
+  "name": "b4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx functions-framework --target=getData "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuiXiong2211/B4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuiXiong2211/B4/issues"
+  },
+  "homepage": "https://github.com/RuiXiong2211/B4#readme",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  }
+}
