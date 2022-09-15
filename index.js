@@ -1,6 +1,8 @@
 const axios = require("axios");
 const express = require("express");
 const app = express();
+const cors = require('cors')
+app.use(cors())
 
 // function that fetches all CS4k Semester 2 modules in NUSMODs and their corresponding prerequisites.
 app.get("/", async (req, res) => {
